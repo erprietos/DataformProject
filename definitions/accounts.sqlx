@@ -1,0 +1,23 @@
+config {
+  type: "table",
+  bigquery: {
+    partitionBy: "DATE(ts)"
+  }
+}
+SELECT 
+  CURRENT_TIMESTAMP() AS TS, 
+  100 AS AccountNumber, 
+  'ricardo' AS ClientName,
+  'HomeLoan' AS AccountType
+UNION ALL
+SELECT 
+  CURRENT_TIMESTAMP() AS TS, 
+  101 AS AccountNumber, 
+  'natalia' AS ClientName,
+  'HomeLoan' AS AccountType
+UNION ALL
+SELECT 
+  CURRENT_TIMESTAMP() AS TS, 
+  102 AS AccountNumber, 
+  'julia' AS ClientName,
+  'CarLoan' AS AccountType
