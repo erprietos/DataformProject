@@ -1,9 +1,4 @@
 config {
   type: "view"
 }
-SELECT  
-  *
-FROM
-  DataformDataset.accounts
-WHERE 
-  ts > '2022-12-31'
+SELECT 'test'
