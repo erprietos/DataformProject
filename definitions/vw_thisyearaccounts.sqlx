@@ -1,4 +1,4 @@
 config {
   type: "view"
 }
-SELECT 'test1'
+SELECT 'test1', 'test2'
