@@ -8,17 +8,17 @@ config {
 SELECT 
   CURRENT_TIMESTAMP() AS TS, 
   100 AS AccountNumber, 
-  'ricardo' AS ClientName,
+  'ricardop' AS ClientName,
   'HomeLoan' AS AccountType
 UNION ALL
 SELECT 
   CURRENT_TIMESTAMP() AS TS, 
   101 AS AccountNumber, 
-  'natalia' AS ClientName,
+  'nataliap' AS ClientName,
   'HomeLoan' AS AccountType
 UNION ALL
 SELECT 
   CURRENT_TIMESTAMP() AS TS, 
   102 AS AccountNumber, 
-  'julia' AS ClientName,
+  'julianap' AS ClientName,
   'CarLoan' AS AccountType
